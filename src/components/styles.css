@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.data-parser {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.data-parser h1 {
+  margin-top: 0;
+}
+
+.data-parser h1, .data-parser h2, .data-parser h3 {
+  color: #666;
+}
+
+.data-parser h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.data-parser h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.data-parser h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.data-parser ul, .data-parser ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.data-parser li {
+  margin-bottom: 10px;
+}
+
+.data-parser li:last-child {
+  margin-bottom: 0;
+}
+
+.data-parser a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.data-parser a:hover {
+  color: #23527c;
+}
+
+.data-parser table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.data-parser th, .data-parser td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.data-parser th {
+  background-color: #f0f0f0;
+}
+
+.data-parser th, .data-parser td {
+  text-align: left;
+}
+
+.data-parser th:first-child, .data-parser td:first-child {
+  border-left: none;
+}
+
+.data-parser th:last-child, .data-parser td:last-child {
+  border-right: none;
+}
+
+.data-parser tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-parser tr:hover {
+  background-color: #f0f0f0;
+}
+
+.data-parser .pagination {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.data-parser .pagination li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.data-parser .pagination li a {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.data-parser .pagination li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.data-parser .pagination .active {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.data-parser .error-message {
+  color: #a94442;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.data-parser .success-message {
+  color: #3c763d;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
